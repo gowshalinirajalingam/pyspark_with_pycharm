@@ -28,8 +28,12 @@ Setting up Spark
                 To install dependencies add requirement.txt file and add dependencies inside that
                         for that follow this git link  (https://github.com/Gauravshah/pyspark-intellij-tutorial)
                         
-               
-               
+           
+Setting PyPy as interpreter in ubuntu
+-----------------------------------
+1)download  from http://pypy.org/download.html#installing
+2)Extract the tar folder inside usr/local/bin
+3)open pycharm-> Settings -> Expand project -> Click project interpreter->click settings icon and select Add->in Base interpreter select '/usr/local/bin/pypy3.6-v7.1.1-linux64/bin/pypy3'   ->click Apply ->click ok
                
       
                 
