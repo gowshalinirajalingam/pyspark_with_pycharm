@@ -34,6 +34,11 @@ Setting PyPy as interpreter in ubuntu
 1)download  from http://pypy.org/download.html#installing
 2)Extract the tar folder inside usr/local/bin
 3)open pycharm-> Settings -> Expand project -> Click project interpreter->click settings icon and select Add->in Base interpreter select '/usr/local/bin/pypy3.6-v7.1.1-linux64/bin/pypy3'   ->click Apply ->click ok
+
+Extract .tgz file
+------------------
+$gunzip spark-2.4.3-bin-hadoop2.7.tgz
+$tar -xvf spark-2.4.3-bin-hadoop2.7.tar
                
       
                 
