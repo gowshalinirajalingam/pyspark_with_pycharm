@@ -1,0 +1,26 @@
+1.Download spark from this url:https://spark.apache.org/downloads.html
+1.open anaconda promt
+2.check java version  : java -version
+3. check pyspark is installed: conda list
+4. install pyspark:   pip install pyspark
+5. set variables:
+	set PYSPARK_DRIVER_PYTHON=ipython
+	SET PYSPARK_DRIVER_PYTHON_OPTS=notebook
+	set SPARK_HOME=C:\Users\GowshaliniR\Documents\Brandix\apps\spark-2.4.5-bin-hadoop2.7\spark-2.4.5-bin-hadoop2.7
+	set MASTER='local[*]'
+
+
+6. Followed the pysparkling guide: https://docs.h2o.ai/sparkling-water/2.4/latest-stable/doc/pysparkling.html
+	i. to install PySparkling for Spark 2.4, the command would look like:
+		pip install h2o_pysparkling_2.4
+	ii. install dependencies: 
+		$ pip install requests
+		$ pip install tabulate
+		$ pip install future
+		$ pip install colorama>=0.3.8
+	iii. Download sparkling water folder from 
+		https://www.h2o.ai/download/#sparkling-water
+	iv. Go inside sparkling water bin directory and run below cmd
+		$pysparkling
+
+	NOW NOTEBOOK WILL OPEN............
